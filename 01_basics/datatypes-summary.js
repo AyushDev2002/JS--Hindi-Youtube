@@ -49,7 +49,9 @@ let anotherName = myYoutubeName
 
 anotherName = "Thexecuter"
 console.log(myYoutubeName)
-console.log(anotherName)
+console.log(anotherName)  
+
+// Anything change in string goes to stack and copies the stuff and let original value intact
 
 let userOne = {
     email: "user@google.com",
@@ -62,3 +64,5 @@ userTwo.email = "Ayush@google.com"
 
 console.log(userOne.email);
 console.log(userTwo.email);
+
+// Anything change in object goes to heap and change the original value
