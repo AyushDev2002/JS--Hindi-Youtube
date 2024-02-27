@@ -50,4 +50,4 @@ console.log(addTwo(3, 4))
 
 const myArray = [2, 5, 7, 8, 9]
 
-myArray.forEach(() => ())
+// myArray.forEach(() => ())
