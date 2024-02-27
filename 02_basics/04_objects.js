@@ -1,6 +1,6 @@
 // const tinderUser = new Object() 
 
-const tinderUser = {}
+const tinderUser = {}        // also a way to represent object
 
 tinderUser.id = "123abc" 
 tinderUser.name = "Ayush"
@@ -13,21 +13,21 @@ const regularUser = {
     fullname: {
         userfullname: {
             firstname: "Aayu",
-            lastname: "Tomar"
+            lastname: "Tomar",
         }
     }
 }
 
 // console.log(regularUser.fullname);
 // console.log(regularUser.fullname.userfullname);
-// console.log(regularUser.fullname.userfullname.lastname);
+console.log(regularUser.fullname.userfullname.lastname);
 
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 
 // const obj3 = { obj1, obj2 }
 
-// const obj3 = Object.assign({}, obj1, obj2)    // {} stores all value after it 
+// const obj3 = Object.assign({}, obj1, obj2)    // {} stores all value after it inside {}
 
 const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
