@@ -1,0 +1,56 @@
+html{
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    border: 2px solid black;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #212121;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+span{ 
+    display: block;
+    
+}
+
+.canvas{
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: inline-block;
+}
+
+#grey{
+    background: grey;
+}
+
+#white{
+    background: white;
+}
+
+#blue{
+    background: blue;
+}
+
+#yellow{
+    background: yellow;
+}
